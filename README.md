@@ -18,6 +18,7 @@ data frames the cancer problem in the United States well.
 The ability of neural networks to learn from diverse data sources and uncover complex
 relationships makes them a relevant and powerful method for cancer diagnosis and hold promise
 for enhancing early detection and personalized treatment strategies.
+
 Analysis and Model Demonstration
 The neural network algorithm is a class of machine learning algorithms inspired by the
 structure and function of the human brain. Neural net algorithms, specifically the package
@@ -47,6 +48,7 @@ into the strengths and weaknesses of the neural network model and helps in ident
 improvement. Regularization techniques, such a L1 regularization, can also be employed to
 prevent overfitting and enhance the model’s generalization capabilities.
 4
+
 Exploratory Data Analysis
 To learn patterns and relationships in determining if a cell is malignant or benign, the data
 comes from (Dr. William H. Wolberg, 1995) for the neural network. The predicting field is
@@ -78,6 +80,7 @@ relationships. The head(di) function displays the first six rows of the data fra
 examination of the structure and format of the data. The target variable in this analysis is
 diagnosis, that represents if a cell is benign or malignant. It has the character values of B and M
 respectively. All other variables are independent and have the type of numeric values.
+
 Data Information and Preprocessing
 After the exploration process, some of the variables need to be addressed in the preprocessing
 stage for the R nerualnet algorithm can be deployed on the dataset. The variable ID
@@ -142,6 +145,7 @@ measures. It ranges between 0 and 1, where and F1 score of 1 indicates a perfect
 score of 0 indicates poor performance. This this model’s case, the F1 score on the training set is
 99.6% and the F1 score on the test set is 96.6%.
 9
+
 Conclusion
 There were some interesting findings upon conducting this analysis. For example, the
 strength of the model’s performance and accuracy capabilities with and F1 score of 97% and
@@ -190,6 +194,7 @@ the findings.
 In conclusion, it would be beneficial to and crucial to interpret the results and findings
 with caution.
 12
+
 References
 Bergstr, J. &. (2012). Randome search for hyper-parameter optimaztion. Journal of Machine
 Learning Research.
